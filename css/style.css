@@ -1,0 +1,82 @@
+body {
+  overflow-x: hidden;
+}
+
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.category__item {
+  background-color: orange;
+  width: 30%;
+  padding: 0px 20px;
+  width: 140px;
+  margin: 10px 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.products__item {
+  width: 22%;
+  border: 1px solid rgba(157, 153, 153, 0.7333333333);
+  margin: 10px 0px;
+  position: relative;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+.products__img img {
+  width: 100%;
+}
+.products__discount {
+  background-color: orange;
+  position: absolute;
+  top: 5px;
+  right: 2px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.products__title {
+  font-size: 14px;
+}
+.products__meta {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.products__price {
+  color: red;
+}
+.products__stock {
+  font-size: 14px;
+}
+
+.paging {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.paging button {
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  width: 60px;
+  height: 30px;
+}
+.paging__text {
+  font-size: 17px;
+  margin: 0px 10px;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
